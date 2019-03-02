@@ -40,7 +40,9 @@ small game is an excellent project idea.
   - When in doubt, store things in your Redux store
 - At least one component must use a [lifecycle method](https://reactjs.org/docs/react-component.html#componentdidmount) like `componentDidMount`, `componentWillUnmount`, etc
 
-## Bonus Requirements (recommended for comprehension / understanding!)
+## Bonus Requirements
+
+> NOTE: These are not required for the project, but advised for better understanding / comprehension of the topic.
 
 - Use a component from an external library, loaded via `npm`
   - Example: [bulma-react-components](https://www.npmjs.com/package/react-bulma-components), [react-bootstrap](https://react-bootstrap.github.io/), etc
@@ -52,8 +54,11 @@ small game is an excellent project idea.
   - GitHub Pages
   - Firebase hosting
   - etc
+
+## Final Tips
+
 - Remember to keep your `render` methods small. Compose your application using re-usable components, not copy/paste JSX.
-- Good luck and have fun with this one :)
+- Good luck and have fun with this one :) We are in the home stretch!
 
 [react-redux]:https://react-redux.js.org/
 
