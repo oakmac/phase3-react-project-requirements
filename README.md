@@ -57,7 +57,9 @@ small game is an excellent project idea.
 
 ## Final Tips
 
-- Remember to keep your `render` methods small. Compose your application using re-usable components, not copy/paste JSX.
+- Remember to keep your `render` methods small.
+  - Compose your application using re-usable components, not copy/paste JSX.
+  - Less than 20 lines of JSX is a good rule of thumb.
 - Good luck and have fun with this one :) We are in the home stretch!
 
 [react-redux]:https://react-redux.js.org/
