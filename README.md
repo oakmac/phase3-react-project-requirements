@@ -19,7 +19,8 @@ in the class you should have a solid grasp of git, GitHub, web fundamentals, and
 general development workflow.
 
 The structure for this project is intentionally flexible in order to let you
-explore ideas, challenge yourself, and build something you want to create.
+explore ideas, challenge yourself, and build something you want to create. Let's
+get creative and build the web :)
 
 The focus of your project should be in the web browser (ie: frontend), and
 specifically something that requires managing state using React.js and Redux. A
@@ -27,19 +28,32 @@ small game is an excellent project idea.
 
 ## Project Requirements
 
-> NOTE: these are not finished
-
 - You must use [React.js] and [Redux] in order to manage the state of a frontend application.
-  - using [react-redux] is highly recommended, but not strictly required
-- Use local component state for simple things
-- Organize components into separate files. Roughly one component per file.
-- one external library component
-- one component that uses a lifecycle method
-- maybe write a container component
-- need some kind of store persistence (LocalStorage, DB, etc)
-- 5 actions of some sort
-- maybe 2 one week
-- any kind of deployment
+  - using [react-redux] is highly recommended, but not a hard required
+- Your application must contain at least 6 React components.
+- Organize components into separate files and `import` / `export` using es6 modules
+  - In general it should be "one component per file"
+  - There can be exceptions to this; use your best judgment on code organization
+- You must have at least 5 separate Redux action types.
+- At least one component must use local `state` and not participate in the Redux state management
+  - Tip: pick a small component with some trivial, ephemeral state for this
+  - When in doubt, store things in your Redux store
+- At least one component must use a [lifecycle method](https://reactjs.org/docs/react-component.html#componentdidmount) like `componentDidMount`, `componentWillUnmount`, etc
+
+## Bonus Requirements (recommended for comprehension / understanding!)
+
+- Use a component from an external library, loaded via `npm`
+  - Example: [bulma-react-components](https://www.npmjs.com/package/react-bulma-components), [react-bootstrap](https://react-bootstrap.github.io/), etc
+- Persist your Redux store somewhere like `localStorage` or an external database
+  - When the user refreshes your page you should be able to load exactly the same state they were in when they left the page
+- Instead of writing one large application, write two small ones
+  - More projects is good for your portfolio
+- Deploy your project somewhere where people can see and play with it
+  - GitHub Pages
+  - Firebase hosting
+  - etc
+- Remember to keep your `render` methods small. Compose your application using re-usable components, not copy/paste JSX.
+- Good luck and have fun with this one :)
 
 [react-redux]:https://react-redux.js.org/
 
